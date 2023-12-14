@@ -1,0 +1,52 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 25px;
+}
+
+.brand-name{
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-left: 0.6rem;
+}
+
+.icon-container{
+    font-size: 1.8rem;
+}
+
+label input{
+    height: 0;
+    width: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.upload-icon{
+    cursor: pointer;
+    color: #5e82c6;
+}
+
+.upload-icon:hover{
+    color: blue;
+}
+
+.bar-container{
+    background-color: white;
+}
+
+.bar{
+    background-color: blue;
+}
